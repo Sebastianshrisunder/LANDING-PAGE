@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:360px)" href="style2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--script src="backend.js"></script-->
+    
+    <style>
+    </style>
+</head>
+<body>
+    <div class="altop">
+        <div class="header">
+            <div class="left">
+                MOVIENERD
+            </div>
+            <div class="fix">
+                Login to rate or review your favourite genre of entertainment
+                <button id="btn1" onclick="validate()">Login Here!</button>
+                
+            </div>
+        </div>
+    </div>
+        <nav id="navbar">
+            <ul>
+                <li class="item"><a>Home</a></li>
+                <li class="item"><a>About</a></li>
+                <li class="item"><a>Audience-Section</a></li>
+                <li class="item"><a>Feedback</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+   
+    <section id="intro">
+        <h1 class="primary">Welcome!!</h1>
+        <div class="body">
+            <p style="font-size: 20px;">Welcome to a website for the most vast fandoms in the world. Here you can rate all your favourite movies and TV shows and animes. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus impedit delectus amet labore nobis? Corporis esse culpa, fuga expedita deserunt sapiente quis nihil! Tempore soluta placeat totam vel quaerat nostrum?</p>
+        </div>
+    </section>
+    <section class="company">
+        <section class="card" id="a"></section>
+        <section class="card" id="b"></section>
+        <section class="card" id="c"></section>
+        <section class="card" id="d"></section>
+    </section>
+    <div id="main">
+        <h3>Rate your favourtie Movies and other stuff</h3>
+        <div class="items">
+            <img class="img" id="image"></div>
+        </div>
+        
+    </div>
+    <div class="upcoming">
+        <h3 class="title">New and upcomings</h3>
+        <div class="u">
+            <div class="upcome u1"></div>
+            <div class="upcome u2"></div>
+            <div class="upcome u3"></div>
+            <button class="b">>></button>
+        </div>
+    </div>
+    <div class="upcoming">
+        <h3 class="title">Now in Theatres</h3>
+        <div class="c">
+            <div class="current c1"></div>
+            <div class="current c2"></div>
+            <div class="current c3"></div>
+            <button class="b">>></button>
+        </div>
+    </div>
+    <div class="upcoming">
+        <h3 class="title">Viewer's Choice</h3>
+        <div class="v">
+            <div class="choice ch1"></div>
+            <div class="choice ch2"></div>
+            <div class="choice ch3"></div>
+            <button class="b">>></button>
+        </div>
+    </div>
+    <footer>
+        <h3>&copy; MOVIENERD</h3>
+        <div class="icons">
+            <div class="icon">
+                <img src="Linkedin free vector icons designed by Pixel perfect.png" alt="">
+            </div>
+            <div class="icon">
+                <img src="Twitter Logo On Black Background free icons designed by Google.png" alt="">
+            </div>
+            <div class="icon">
+                <img src="Instagram free icons designed by Freepik.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script>
+        let image = document.getElementById('image');
+        let images = ['i1.jpg','i2.jpg','i3.jpg','i4.jpg','i5.jpg','i6.jpg'];
+        setInterval(function(){
+            let random = Math.floor(Math.random()*6);
+            image.src = images[random];
+        },5000)
+    </script>
+</body>
+</html>

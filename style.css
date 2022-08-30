@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+body{
+    max-width: 100%;
+    background: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.body{
+    border-radius: 15px;
+    border: 2px solid white;
+    height: 300px;
+    width: 100%;
+    margin: 10px 0px;
+}
+.header{
+    width: 100%;
+    background-color: rgb(49, 43, 101);
+    display: flex;
+    height: 100px;
+}
+.header::before{
+    content: "";
+    background: url("Iron\ man\,\ 2020\,\ fan\ art\,\ dark\ wallpaper.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 860px;
+    width: 100%;
+   z-index: -1;
+   opacity: 1;
+}
+.altop{
+    justify-items: center;
+    display: flex;
+}
+.left{
+    font-size: 30px;
+    padding: 10px 10px;
+    margin: 0px 10px;
+}
+.fix{
+    padding: 10px 10px;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+#btn1{
+    color: white;
+    background-color: rgb(49, 43, 101) ;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0px 10px;
+    border: 2px solid rgb(49, 43, 101);
+    border-radius: 5px;
+    box-shadow: 3px 4px 2px rgb(37, 29, 29)
+    
+}
+
+#navbar{
+    width: 60%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+ul{
+    display: flex;   
+}
+.item{
+    text-decoration: none;
+    list-style:none;
+    padding:0px 10px;
+}
+.item:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#intro{
+    color: white;
+    top: 25px;
+    position: relative;
+    padding: 30px;
+    align-items: center;
+}
+.company{
+    position: absolute;
+    max-width: 100%;
+    height: 330px;
+    margin: 0px 10px;
+    /*border: 2px solid white;*/
+    display: flex;
+    justify-content: center;
+}
+.card{
+    height: 300px;
+    width:200px;
+    padding: 0px 10px;
+    margin: 20px 20px;
+    border: 2px solid rgb(49, 43, 101);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#a{
+    color: white;
+    border-radius: 10px;
+    background: url("Disney+\ Hotstar\ -\ Senior\ Research\ Lead\ in\ Advertising\ 高级广告算法主管.png") no-repeat center center/cover;
+    opacity: 0.8;
+}
+#b{
+    color: black;
+    border-radius: 10px;
+    background: url("Bad\ or\ Rad_\ Netflix\'s\ New\ Icon.jpg") no-repeat center center/cover;
+    opacity: 0.8;
+}
+#c{
+    border-radius: 10px;
+    background: url("Amazon\ Prime\ Video_\ implementate\ tre\ importanti\ novità.png") no-repeat center center/cover;
+    opacity: 0.8;
+}
+#d{
+    border-radius: 10px;
+    background: url("HBO\ THEATRICAL\ FRANCHISES.jpg") no-repeat center center/cover;
+    opacity: 0.8;
+}
+p{  
+    margin: 50px 50px;
+    padding: 50px 10px;
+    text-align: center;
+}
+.primary{
+    text-decoration: none;
+    text-align: center;
+}
+
+#main{
+    text-align: center;
+    position: relative;
+    top: 330px;
+    width: 100%;
+    height: 300px;
+    margin:15px auto;
+    /*border: 2px solid rebeccapurple;*/
+}
+
+.items{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 300px;
+    width: 55%;
+    margin: 10px 0px;
+    position: absolute; 
+    left: 22%;
+}
+.img{
+    height: 300px;
+    width: 100%;
+}
+
+.box{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px 45px;
+    padding:45px 45px;
+    height: 150px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 10px 20px 60px lightseagreen;
+    transition:ease-in-out;
+    transition-duration: 0.65s;
+}
+.box:hover{
+    border: 2px solid azure;
+    color: lightseagreen;
+    background: azure;
+    transform: scale(1.05);
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.fa{
+    size: inherit;
+}
+.pallet{
+    margin: 30px;
+}
+.upcoming{
+    position: relative;
+    display:inline-block;
+    margin: 10px auto;
+    top: 330px;
+    height: 300px;
+    width: 100%;
+    /*border: 2px solid rgb(49, 43, 101);*/
+}
+.u{
+    /*border: 2px solid blueviolet;*/
+    display: flex;
+    padding: 0px 20px;
+    max-width: 100%;
+    height: 200px;
+}
+.b{
+    background: black;
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.upcome{
+    border: 2px solid white;
+    padding: 10px 25px;  
+    margin: 5px 10px;  
+    width: 26.5%;
+    height: 200px;
+    top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.upcome:hover{
+    cursor: pointer;
+    filter:brightness(0.5);
+}
+.u1{
+    background: url("HD\ wallpaper_\ Movie\,\ John\ Wick_\ Chapter\ 3\ –\ Parabellum\,\ Keanu\ Reeves.jpg") no-repeat center center/cover;
+}
+.u2{
+    background: url("Avatar\ 2\ new\ release\ date.jpg") no-repeat center center/cover;
+}
+.u3{
+    background: url("Black\ Panther_\ Wakanda\ Forever.png") no-repeat center center/cover;
+}
+.c{
+    display: flex;
+    padding: 0px 20px;
+    max-width: 100%;
+    height: 200px;
+}
+.current{
+    border: 2px solid white;
+    padding: 10px 25px;  
+    margin: 5px 10px;  
+    width: 26.5%;
+    height: 200px;
+    top: 10px;
+    border-radius: 10px;
+}
+.c1{
+    background: url("Removed\ the\ text\ from\ the\ Thor\ Love\ and\ Thunder\ Screen\ X\ poster\ and\ made\ it\ into\ a\ mobile\ wallpaper.png") no-repeat center center/cover;
+}
+.c2{
+    background: url("Fan\ Art\ de\ Jurassic\ World_\ Dominion_.jpg") no-repeat center center/cover;
+}
+.c3{
+    background: url("DC\ Super-Pets™_\ Official\ Merchandise\ at\ Zazzle.jpg") no-repeat center center/cover;
+}
+.ch1{
+    background: url("HD\ wallpaper_\ Captain\ America\,\ Black\ Widow\,\ and\ Samuel\ L\ Jackson\ digital\ wallpaper.jpg") no-repeat center center/cover;
+}
+.ch2{
+    background: url("MARVEL\ STUDIOS\ AVENGERS\ ENDGAME\ DESKTOP\ WALLPAPER\ by\ Joshua121Penalba\ on\ DeviantArt.jpg") no-repeat center center/cover;
+}
+.ch3{
+    background: url("Spider-Man\ póster.jpg") no-repeat center center/cover;
+}
+.v{
+    display: flex;
+    padding: 0px 20px;
+    max-width: 100%;
+    height: 200px;
+}
+.choice{
+    border: 2px solid white;
+    padding: 10px 25px;  
+    margin: 5px 10px;  
+    width: 26.5%;
+    height: 200px;
+    top: 10px;
+    border-radius: 10px;
+}
+.title{
+    width: 235px;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    border-left: 3px solid white;
+}
+footer
+{
+    color: black;
+    position: relative;
+    top: 350px;
+    text-align: center;
+    padding: 10px 0px;
+    background: rgb(49, 43, 101);
+    height: 100px;
+    width: 100%;
+}
+.icon{
+    height: 90px;
+    padding: 0px 30px;
+    transform: scale(0.35);
+    display: flex;
+}
+
+/*Mobile UI*/
+@media only screen and (max-width:600px){
+    *{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:black;
+    }
+    .company{
+        max-width: 100%;
+        height: 330px;
+        margin: 0px 10px;
+        /*border: 2px solid white;*/
+        display: inline-block;
+        justify-content: center;
+    }
+    #main{
+        display: flex;
+        position: relative;
+        top: 630px;
+        width: 100%;
+        height: 300px;
+        margin:10px auto;
+        /*border: 2px solid rebeccapurple;*/
+    }
+    
+}
